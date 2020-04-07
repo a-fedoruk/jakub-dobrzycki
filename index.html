@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jakub Dobrzycki - Pianista</title>
+    <link rel="shortcut icon" href="piano.png" type="image/png" />
+
+    <!-- CSS  -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://indestructibletype.com/fonts/Jost.css"
+      type="text/css"
+      charset="utf-8"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="css/materialize.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <link
+      href="css/style.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <script src="https://apis.google.com/js/api.js"></script>
+  </head>
+
+  <body>
+    <div class="navbar-fixed">
+      <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="#" class="brand-logo"
+            ><img src="logo_dark.svg" alt="Jakub Dobrzycki"
+          /></a>
+          <ul class="nav-bar right hide-on-med-and-down">
+            <li><a class="nav-about">O MNIE</a></li>
+            <li><a class="nav-video">NAGRANIA</a></li>
+            <li><a class="nav-event">WYDARZENIA</a></li>
+            <li><a class="nav-photo">ZDJĘCIA</a></li>
+            <li><a class="nav-contact">KONTAKT</a></li>
+            <li>
+              <div class="input-field">
+                <select>
+                  <option value="1" selected>PL</option>
+                  <option value="2">ENG</option>
+                  <option value="3">DEU</option>
+                </select>
+              </div>
+            </li>
+          </ul>
+
+          <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </nav>
+      </div>
+      <ul id="slide-out" class="sidenav ">
+        <li class="empty">
+          <a class="sidenav-close" href="#!"><i class="material-icons">close</i></a>
+        </li>
+        <li><a class="nav-about">O MNIE</a></li>
+        <li><a class="nav-video">NAGRANIA</a></li>
+        <li><a class="nav-event">WYDARZENIA</a></li>
+        <li><a class="nav-photo">ZDJĘCIA</a></li>
+        <li><a class="nav-contact">KONTAKT</a></li>
+        <li>
+          <div class="input-field">
+            <select>
+              <option value="1" selected>PL</option>
+              <option value="2">ENG</option>
+              <option value="3">DEU</option>
+            </select>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 hero-container">
+            <div class="hero-overlay">
+              <img src="logo_light.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a id="about"></a>
+    <div class="container main-container">
+      <div class="section">
+        <div class="row flex-section">
+          <div class="desktop col s10">
+            <div class="image-container half-section"></div>
+            <div class="half-section">
+              <h4>O mnie</h4>
+              <div class="divider"></div>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                eirmod.
+              </p>
+              <div class="divider"></div>
+            </div>
+          </div>
+          <div class="mobile col s12 about-section">
+            <h4>O mnie</h4>
+            <div class="divider"></div>
+            <div class="image-container half-section"></div>
+            <div class="half-section">
+              <p class="description">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                eirmod.
+              </p>
+            </div>
+            <div class="divider divider-right"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a id="video"></a>
+    <div class="container main-container">
+      <div class="section section-relative">
+        <div class="row row-relative">
+          <h4 class="header-overlap">Moje nagrania</h4>
+          <div class="col s12 grey-background video"></div>
+          <button
+            class="btn-overlap-video btn waves-effect waves-light"
+            type="submit"
+            name="action"
+          >
+            zobacz więcej na
+            <img class="button-icon" src="youtube-brands.svg" />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <a id="events"></a>
+    <div class="desktop container main-container">
+      <div class="section section-relative">
+        <div class="row row-relative">
+          <h4 class="header-overlap">Gdzie występuję</h4>
+          <div class="col s12 grey-background">
+            <div class="grid-container">
+              <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header">
+                    <div class="event-details">
+                      Sob, 16 kwi o 18:00
+                    </div>
+                    <h6>Nazwa wydarzenia</h6>
+                    <div class="event-details">
+                      ul. Adres 17, Szczecin
+                    </div>
+                    <div class="divider divider-callaps"></div>
+                  </div>
+                  <div class="collapsible-body">
+                    <span
+                      >Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                      magna aliquyam erat, sed diam voluptua. At vero eos et
+                      accusam et justo duo dolores et ea rebum. Stet clita kasd
+                      gubergren, no sea takimata sanctus est.</span
+                    >
+                  </div>
+                </li>
+              </ul>
+              <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header">
+                    <div class="event-details">
+                      Sob, 16 kwi o 18:00
+                    </div>
+                    <h6>Nazwa wydarzenia</h6>
+                    <div class="event-details">
+                      ul. Adres 17, Szczecin
+                    </div>
+                    <div class="divider divider-callaps"></div>
+                  </div>
+                  <div class="collapsible-body">
+                    <span
+                      >Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                      magna aliquyam erat, sed diam voluptua. At vero eos et
+                      accusam et justo duo dolores et ea rebum. Stet clita kasd
+                      gubergren, no sea takimata sanctus est.</span
+                    >
+                  </div>
+                </li>
+              </ul>
+              <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header">
+                    <div class="event-details">
+                      Sob, 16 kwi o 18:00
+                    </div>
+                    <h6>Nazwa wydarzenia</h6>
+                    <div class="event-details">
+                      ul. Adres 17, Szczecin
+                    </div>
+                    <div class="divider divider-callaps"></div>
+                  </div>
+                  <div class="collapsible-body">
+                    <span
+                      >Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                      magna aliquyam erat, sed diam voluptua. At vero eos et
+                      accusam et justo duo dolores et ea rebum. Stet clita kasd
+                      gubergren, no sea takimata sanctus est.</span
+                    >
+                  </div>
+                </li>
+              </ul>
+              <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header">
+                    <div class="event-details">
+                      Sob, 16 kwi o 18:00
+                    </div>
+                    <h6>Nazwa wydarzenia</h6>
+                    <div class="event-details">
+                      ul. Adres 17, Szczecin
+                    </div>
+                    <div class="divider divider-callaps"></div>
+                  </div>
+                  <div class="collapsible-body">
+                    <span
+                      >Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                      magna aliquyam erat, sed diam voluptua. At vero eos et
+                      accusam et justo duo dolores et ea rebum. Stet clita kasd
+                      gubergren, no sea takimata sanctus est.</span
+                    >
+                  </div>
+                </li>
+              </ul>
+              <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header">
+                    <div class="event-details">
+                      Sob, 16 kwi o 18:00
+                    </div>
+                    <h6>Nazwa wydarzenia</h6>
+                    <div class="event-details">
+                      ul. Adres 17, Szczecin
+                    </div>
+                    <div class="divider divider-callaps"></div>
+                  </div>
+                  <div class="collapsible-body">
+                    <span
+                      >Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                      magna aliquyam erat, sed diam voluptua. At vero eos et
+                      accusam et justo duo dolores et ea rebum. Stet clita kasd
+                      gubergren, no sea takimata sanctus est.</span
+                    >
+                  </div>
+                </li>
+              </ul>
+              <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header">
+                    <div class="event-details">
+                      Sob, 16 kwi o 18:00
+                    </div>
+                    <h6>Nazwa wydarzenia</h6>
+                    <div class="event-details">
+                      ul. Adres 17, Szczecin
+                    </div>
+                    <div class="divider divider-callaps"></div>
+                  </div>
+                  <div class="collapsible-body">
+                    <span
+                      >Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                      magna aliquyam erat, sed diam voluptua. At vero eos et
+                      accusam et justo duo dolores et ea rebum. Stet clita kasd
+                      gubergren, no sea takimata sanctus est.</span
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <button
+          class="btn-overlap-fb btn waves-effect waves-light"
+          type="submit"
+          name="action"
+        >
+          <span>zobacz więcej na</span>
+          <img class="button-icon" src="facebook-square-brands.svg" />
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile container main-container">
+      <div class="section section-relative">
+        <div class="row row-relative">
+          <h4 class="header-overlap">Gdzie występuję</h4>
+          <div class="col s12 grey-background">
+            <div class="mobile carousel carousel-slider center dragged">
+              <div class="carousel-item" href="#one!">
+                <ul class="collapsible ">
+                  <li class="active">
+                    <div class="collapsible-header">
+                      <div class="event-details">
+                        Sob, 16 kwi o 18:00
+                      </div>
+                      <h6>Nazwa wydarzenia</h6>
+                      <div class="event-details">
+                        ul. Adres 17, Szczecin
+                      </div>
+                      <div class="divider divider-callaps"></div>
+                    </div>
+                    <div class="collapsible-body">
+                      <span
+                        >Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                        magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam et justo duo dolores et ea rebum. Stet clita kasd
+                        gubergren, no sea takimata sanctus est.</span
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="carousel-item" href="#one!">
+                <ul class="collapsible">
+                  <li class="active">
+                    <div class="collapsible-header">
+                      <div class="event-details">
+                        Sob, 16 kwi o 18:00
+                      </div>
+                      <h6>Nazwa wydarzenia</h6>
+                      <div class="event-details">
+                        ul. Adres 17, Szczecin
+                      </div>
+                      <div class="divider divider-callaps"></div>
+                    </div>
+                    <div class="collapsible-body">
+                      <span
+                        >Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                        magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam et justo duo dolores et ea rebum. Stet clita kasd
+                        gubergren, no sea takimata sanctus est.</span
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="carousel-item" href="#one!">
+                <ul class="collapsible">
+                  <li class="active">
+                    <div class="collapsible-header">
+                      <div class="event-details">
+                        Sob, 16 kwi o 18:00
+                      </div>
+                      <h6>Nazwa wydarzenia</h6>
+                      <div class="event-details">
+                        ul. Adres 17, Szczecin
+                      </div>
+                      <div class="divider divider-callaps"></div>
+                    </div>
+                    <div class="collapsible-body">
+                      <span
+                        >Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                        magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam et justo duo dolores et ea rebum. Stet clita kasd
+                        gubergren, no sea takimata sanctus est.</span
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="carousel-item" href="#one!">
+                <ul class="collapsible">
+                  <li class="active">
+                    <div class="collapsible-header">
+                      <div class="event-details">
+                        Sob, 16 kwi o 18:00
+                      </div>
+                      <h6>Nazwa wydarzenia</h6>
+                      <div class="event-details">
+                        ul. Adres 17, Szczecin
+                      </div>
+                      <div class="divider divider-callaps"></div>
+                    </div>
+                    <div class="collapsible-body">
+                      <span
+                        >Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                        magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam et justo duo dolores et ea rebum. Stet clita kasd
+                        gubergren, no sea takimata sanctus est.</span
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="carousel-item" href="#one!">
+                <ul class="collapsible">
+                  <li class="active">
+                    <div class="collapsible-header">
+                      <div class="event-details">
+                        Sob, 16 kwi o 18:00
+                      </div>
+                      <h6>Nazwa wydarzenia</h6>
+                      <div class="event-details">
+                        ul. Adres 17, Szczecin
+                      </div>
+                      <div class="divider divider-callaps"></div>
+                    </div>
+                    <div class="collapsible-body">
+                      <span
+                        >Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                        magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam et justo duo dolores et ea rebum. Stet clita kasd
+                        gubergren, no sea takimata sanctus est.</span
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="carousel-item" href="#one!">
+                <ul class="collapsible">
+                  <li class="active">
+                    <div class="collapsible-header">
+                      <div class="event-details">
+                        Sob, 16 kwi o 18:00
+                      </div>
+                      <h6>Nazwa wydarzenia</h6>
+                      <div class="event-details">
+                        ul. Adres 17, Szczecin
+                      </div>
+                      <div class="divider divider-callaps"></div>
+                    </div>
+                    <div class="collapsible-body">
+                      <span
+                        >Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                        magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam et justo duo dolores et ea rebum. Stet clita kasd
+                        gubergren, no sea takimata sanctus est.</span
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="carousel-item" href="#one!">
+                <ul class="collapsible">
+                  <li class="active">
+                    <div class="collapsible-header">
+                      <div class="event-details">
+                        Sob, 16 kwi o 18:00
+                      </div>
+                      <h6>Nazwa wydarzenia</h6>
+                      <div class="event-details">
+                        ul. Adres 17, Szczecin
+                      </div>
+                      <div class="divider divider-callaps"></div>
+                    </div>
+                    <div class="collapsible-body">
+                      <span
+                        >Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                        magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam et justo duo dolores et ea rebum. Stet clita kasd
+                        gubergren, no sea takimata sanctus est.</span
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <button
+          class="btn-overlap-fb btn waves-effect waves-light"
+          type="submit"
+          name="action"
+        >
+          <span>zobacz więcej na</span>
+          <img class="button-icon" src="facebook-square-brands.svg" />
+        </button>
+        </div>
+      </div>
+    </div>
+    
+
+
+    <a id="photo"></a>
+    <div class="container main-container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12">
+            <img src="galery_replacment-01.svg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a id="contact"></a>
+    <div class="container main-container">
+      <div class="section">
+        <div class="row row-relative">
+          <h4 class="header-overlap">Skontatuj się ze mną</h4>
+          <form class="col s10 m12 contact-form">
+            <div class="input-field form-half-section">
+              <input id="last_name" type="text" class="validate" />
+              <label for="last_name">Imię i nazwisko</label>
+            </div>
+            <div class="input-field form-half-section">
+              <input id="last_name" type="text" class="validate" />
+              <label for="last_name">Email</label>
+            </div>
+            <div class="input-field full-section">
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
+              <label for="textarea1">Wiadomość</label>
+            </div>
+          </form>
+          <button
+            class="btn-overlap btn waves-effect waves-light"
+            type="submit"
+            name="action"
+          >
+            wyślij
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer grey darken-4">
+      <div class="footer-copyright">
+        <div class="container">
+          <div class="section">
+            <div class="row">
+              <div class="col s12 footer-container">
+                <img class="footer-logo" src="logo_light.svg" />
+                <div>
+                  <img class="button-icon" src="youtube-brands.svg" />
+                  <img class="button-icon" src="facebook-square-brands.svg" />
+                </div>
+                <div class="data-info">
+                  <div>
+                    <span class="label">telefon:</span
+                    ><a class="value">+48 899 7879 678</a>
+                  </div>
+                  <div>
+                    <span class="label">email:</span
+                    ><a class="value">jakubdobrzycki@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+  </body>
+</html>

@@ -1,0 +1,515 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.mobile {
+  display: none;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  color: #3c3c3b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+.main-container {
+  margin: 20px auto 60px auto;
+}
+
+nav {
+  box-shadow: none;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar li a,
+.sidenav li a {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  color: #3c3c3b;
+  line-height: 55px;
+  border-bottom: 1px solid white;
+  font-weight: 400;
+}
+
+.materialize-textarea {
+  height: 150px !important;
+}
+
+.empty {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 !important;
+  margin: 0;
+}
+
+.empty a {
+  padding: 0 !important;
+  margin: 0 8px 0 0 !important;
+}
+
+.empty a i {
+  margin: 0 12px !important;
+  color: #3c3c3b !important;
+}
+
+nav ul a:hover {
+  background-color: transparent;
+  border-color: #eebc83;
+}
+
+.sidenav-trigger {
+  color: #3c3c3b;
+  float: right !important;
+  margin: 0 !important;
+}
+
+.sidenav .input-field {
+  padding: 0px 19px !important;
+}
+
+.select-wrapper {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.select-wrapper input.select-dropdown {
+  border-bottom: 1px solid white;
+  font-family: "Jost";
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  padding: 0;
+  margin: 0;
+  height: 55px;
+  color: #3c3c3b;
+  padding: 0 15px;
+}
+
+#logo-container {
+  height: 100%;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo-container img {
+  height: 100%;
+}
+
+.dropdown-content li > a,
+.dropdown-content li > span {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  color: #3c3c3b;
+  height: 55px;
+}
+
+.select-wrapper input.select-dropdown:focus {
+  border-bottom: 1px solid #eebc83;
+}
+
+.hero-container {
+  background-color: tomato;
+  height: 450px;
+  background-image: url(../bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 0.75rem !important;
+}
+
+.hero-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(60, 60, 59, 0.37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-overlay img {
+  width: 50%;
+}
+
+.flex-section {
+  display: flex;
+  justify-content: center;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 2.5px;
+  margin: 0 0 0 30px;
+  padding: 10px 0 20px 0;
+}
+
+.image-container {
+  background-image: url(../bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+}
+
+.description {
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+  margin-left: 30px;
+}
+
+.row .col.s10 {
+  margin-left: 0;
+  left: unset;
+  right: unset;
+  display: flex;
+}
+
+.half-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.divider {
+  height: 2px;
+  background-color: #eebc83;
+  width: 200px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.darken-4 {
+  background-color: #3c3c3b;
+}
+
+.footer-logo {
+  width: 200px;
+}
+
+.data-info {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.data-info div:first-child {
+  margin-right: 30px;
+}
+
+.label {
+  font-size: 13px;
+  letter-spacing: 2.6px;
+  text-transform: uppercase;
+  margin-right: 16px;
+}
+
+.value {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 2.6px;
+}
+
+.section-relative {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grey-background {
+  background-image: url(../grey_bg.svg);
+  background-repeat: repeat;
+  /* background-size: cover; */
+  padding: 32px 0.75rem !important;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 16px;
+}
+
+.contact-form {
+  background-color: #ededed;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 15px 30px !important;
+}
+
+.input-field > label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.form-half-section {
+  width: 49%;
+}
+
+.full-section {
+  width: 100%;
+}
+
+.textarea {
+  height: 100px;
+}
+
+.row-relative {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.header-overlap {
+  position: absolute;
+  top: -18px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.header-overlap.long-description {
+  top: -38px;
+}
+
+.btn {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  width: 200px;
+  font-family: "Jost";
+}
+
+.btn-overlap {
+  position: absolute;
+  bottom: -18px;
+  margin: 0;
+}
+
+.btn-overlap-fb {
+  position: absolute;
+  bottom: 18px;
+  margin: 0;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-overlap-fb span,
+.btn-overlap-fb .button-icon {
+  margin-top: 2px;
+}
+
+.collapsible {
+  width: 100%;
+  background-color: white;
+}
+
+.collapsible-header {
+  display: flex;
+  flex-direction: column;
+  border: 0;
+}
+
+.event-details {
+  font-size: 12px;
+  opacity: 0.8;
+  letter-spacing: 1px;
+}
+
+h6 {
+  margin-top: 12px;
+  font-size: 15px;
+  letter-spacing: 2.25px;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.divider-callaps {
+  margin-top: 12px;
+}
+
+.collapsible-body {
+  background-color: white;
+  padding: 0 1rem 1rem 1rem;
+  /* display: block !important; */
+}
+
+.btn-overlap-video {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: -20px;
+  width: 250px;
+}
+
+.button-icon {
+  height: 25px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.video {
+  display: grid;
+  grid-template-columns: 66% 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  padding: 32px 0.75rem 45px !important;
+}
+
+.video iframe:first-child {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.video iframe:last-child {
+  grid-row: 2;
+}
+
+@media only screen and (max-width: 1260px) {
+  nav a.sidenav-trigger {
+    display: flex !important;
+  }
+
+  .nav-bar {
+    display: none !important;
+  }
+
+  #logo-container {
+    /* width: 100%; */
+    display: flex !important;
+    justify-content: start;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-container .button-icon {
+    margin: 26px 8px 8px 8px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none !important;
+  }
+
+  .about-section {
+    flex-direction: column;
+  }
+
+  .about-section h4 {
+    margin: 0;
+  }
+
+  .about-section .half-section {
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .about-section .image-container {
+    height: 200px;
+  }
+
+  .about-section .description {
+    margin: 16px 0;
+  }
+
+  .divider-right {
+    float: right;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .video {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 200px 200px;
+    grid-row-gap: 20px;
+    padding: 32px 0.75rem 45px !important;
+  }
+
+  .video iframe {
+    height: 200px !important;
+  }
+  .video iframe:first-child {
+    grid-row: 1;
+  }
+
+  .form-half-section {
+    width: 100%;
+  }
+
+  .data-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .data-info div:first-child {
+    margin: 8px 0;
+  }
+
+  .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carousel-item .collapsible {
+    width: 95%;
+  }
+
+  .collapsible .divider {
+    margin: 0 auto;
+  }
+
+  .mobile .btn-overlap-fb {
+    bottom: -18px;
+  }
+}
